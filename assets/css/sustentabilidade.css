@@ -1,0 +1,137 @@
+section.sustainability {
+    min-height: 100vh;
+    background-color: #000;
+}
+
+div.sustainability-content {
+    padding-top: 100px;
+}
+
+ul.boiler-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.img-boiler {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+div .lbox {
+    visibility: hidden;
+    opacity: 0;
+    width: 2px;
+    height: 2px;
+}
+ul .boiler-images {
+    width: 800px;
+    list-style: none;
+    display: flex;
+    margin: 100px auto;
+}
+.min {
+    width: 200px;
+    padding: 10px;
+}
+.lbox:target {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    background-color: rgba(10,10,10,0.7);
+}
+.box-img {
+    width: 2px;
+}
+.btn {
+    padding-top: 100px;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+#prev {
+    left: 5%;
+    top: 45%;
+}
+#next {
+    right: 5%;
+    top: 45%;
+}
+#close {
+    top: 0;
+    right: 2px;
+}
+.box-img img {
+    opacity: 0;
+}
+
+.lbox:target .box-img1 img {
+    margin-top: 100px;
+    margin-left: 240px;
+    opacity: 1;
+    transition: opacity 250ms linear;    
+}
+
+.lbox:target .box-img2 img {
+    margin-top: 100px;
+    margin-left: 550px;
+    opacity: 1;
+    transition: opacity 250ms linear;    
+}
+
+.lbox:target .box-img3 img {
+    margin-top: 100px;
+    margin-left: 310px;
+    opacity: 1;
+    transition: opacity 250ms linear;    
+}
+
+.lbox:target .box-img4 img {
+    margin-top: 100px;
+    margin-left: 310px;
+    opacity: 1;
+    transition: opacity 250ms linear;    
+}
+
+.lbox:target .box-img5 img {
+    margin-top: 100px;
+    margin-left: 260px;
+    opacity: 1;
+    transition: opacity 250ms linear;    
+}
+
+.lbox:target .box-img6 img {
+    margin-top: 100px;
+    margin-left: 280px;
+    opacity: 1;
+    transition: opacity 250ms linear;    
+}
+
+.boiler-title h2 {
+    font-size: 25px;
+    color: #bb9469;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.boiler-text p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    text-align: justify;
+    align-items: center;
+    margin: 0 90px;
+}
+
+.boiler-title h2:last-of-type {
+    margin-top: 20px;
+}

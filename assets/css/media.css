@@ -1,0 +1,123 @@
+@media (max-width: 1000px) {
+    /* Menu - Barra de navegação */
+
+    nav .logo-mini {
+        display: block;
+        padding-bottom: 0;
+        padding-top: 400px;
+    }
+
+    nav .logo-mini img {
+        height: 80px;
+        width: 100px;
+    }
+
+    .menu {
+        bottom: 0;
+        text-align: center;
+    }
+
+    .conteudo-menu, .conteudo-menu ul {
+        padding-top: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo-menu {
+        height: 100vh;
+    }
+
+    aside.menu {
+        display: none;
+        background-color: #000;
+    }
+
+    .close-menu-label::after {
+        content: '☰';  
+        position: fixed;
+        z-index: 2;
+        top: 1rem;
+        right: 2rem;
+        background: #bb9469;
+        color: #fff;
+        font-size: 3rem;
+        line-height: 3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
+    /* x */
+    
+    .close-menu:checked~.menu {
+        display: block;
+    }
+
+    .close-menu:checked~.close-menu-label::after {
+        content: 'x'; 
+    }
+
+    .logo img {
+        display: none;
+        height: auto;
+        width: 100%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    div.social-media {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    /* Sessão de slides */
+
+
+    /* Sessão Quem Somos */
+
+    div.main-how-we-are {
+        display: flex;
+        flex-direction: column;
+    }
+    div.how-we-are-img img {
+        padding-top: 30px;
+        height: 300px;
+        width: 400px;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    /* Sessão de Slides*/
+
+    section.slider div.slider-content {
+        height: 50%;
+    }
+
+    .nav-manual, .nav-auto {
+        padding-top: 250px;
+    }
+
+    /* Sessão de sustentabilidade*/
+
+    .lbox {
+        display: none;
+    }
+
+    section ul.boiler-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 85px;
+    }
+
+    /* Sessão de Contatos */
+    
+
+    div.contact-image {
+        display: none;
+    }
+    
+
+}

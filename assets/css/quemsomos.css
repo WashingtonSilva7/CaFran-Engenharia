@@ -1,0 +1,45 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+section.how-we-are {
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+}
+
+div.main-how-we-are {
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.how-we-are-text:hover {
+    transition: 5ms;
+}
+
+.how-we-are-text {
+    margin-left: 50px;
+    color: #fff;
+}
+
+.how-we-are-text h1 {
+    font-size: 30px;
+    color: #bb9469;
+}
+
+div .how-we-are-text p {
+    text-align: justify;
+    font-weight: normal;
+    padding-top: 20px;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+.how-we-are img {
+    height: 400px;
+    width: 500px;
+    margin-right: 50px;
+}
