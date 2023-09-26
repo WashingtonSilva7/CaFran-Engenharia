@@ -1,3 +1,7 @@
+#media-servicos {
+    display: none;
+}
+
 section.services {
     min-height: 100vh;
     width: 100%;
