@@ -85,12 +85,6 @@
     }
     div.how-we-are-img img {
         display: none;
-        padding-top: 30px;
-        height: 300px;
-        width: 400px;
-        align-items: center;
-        padding-left: 60px;
-        padding-bottom: 50px;
     }
 
     /* Sessão de Slides*/
@@ -160,7 +154,8 @@
     }
 
     div.boiler-text p {
-        text-align: justify;
+        align-items: center;
+        justify-content: center;
         padding-top: 20px;
         font-size: 15px;
     }
@@ -175,11 +170,5 @@
     div.contact-main {
         padding: 10px;
     }
-
-}
-    div.contact-image {
-        display: none;
-    }
-    
 
 }
