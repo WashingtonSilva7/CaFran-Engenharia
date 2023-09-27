@@ -115,9 +115,10 @@
 
     #media-servicos .media-foto:target {
         position: fixed;
-        width: 50%;
+        justify-content: center;
+        width: 350px;
         top: 15px;
-        left: 25%;
+        left: 7%;
         padding: 5px;
         border: solid 1px #333;
         box-shadow: 0 0 25px 10px #000;
@@ -148,9 +149,14 @@
     }
 
     section ul.boiler-images {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: block;
         
+        
+    }
+
+    section ul.boiler-images img {
+        width: 100%;
+        height: auto;
     }
 
     div.boiler-text p {
