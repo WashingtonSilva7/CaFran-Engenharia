@@ -116,7 +116,7 @@
     #media-servicos .media-foto:target {
         position: fixed;
         justify-content: center;
-        width: 350px;
+        width: 300px;
         top: 15px;
         left: 7%;
         padding: 5px;
